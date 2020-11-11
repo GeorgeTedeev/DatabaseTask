@@ -1,0 +1,8 @@
+balancers\OperationBalancer.class
+Main.class
+checkers\OperationExistingChecker.class
+configurations\DatabaseConfiguration.class
+operations\Deleter.class
+operations\Shower.class
+operations\Adder.class
+entities\Student.class
