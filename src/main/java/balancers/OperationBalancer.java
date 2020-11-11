@@ -11,7 +11,6 @@ public class OperationBalancer {
     public static void chooseOperation(String operation, Scanner console){
         switch (operation){
             case "ADD":
-                System.out.println("1");
                 Adder.doOperation(console);
                 break;
             case "DELETE":
@@ -19,6 +18,7 @@ public class OperationBalancer {
                 break;
             case "SHOW":
                 Shower.doOperation(console);
+                break;
         }
     }
 }
